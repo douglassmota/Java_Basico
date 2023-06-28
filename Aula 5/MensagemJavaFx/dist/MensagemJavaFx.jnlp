@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MensagemJavaFx.jnlp">
+  <information>
+    <title>MensagemJavaFx</title>
+    <vendor>H3llGow</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MensagemJavaFx.jar" size="2685" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="mensagemjavafx.MensagemJavaFx"  name="MensagemJavaFx" />
+  <update check="always"/>
+</jnlp>
